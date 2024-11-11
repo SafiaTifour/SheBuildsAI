@@ -62,7 +62,7 @@ class RAGApplication:
         return "Please enter a query."
 
 def main():
-    st.title("RAG Application built on Gemini Model")
+    st.title("Ask a Question:")
     rag_app = RAGApplication(pdf_path="documents/12.pdf")
     
     query = st.chat_input("Say something: ")
